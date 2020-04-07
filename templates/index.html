@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-md-center">
+    <h1>Choose data source</h1>
+</div>
+{% for file in data %}
+<div class="row justify-content-md-center">
+    <p><a href="/data/{{ file }}">{{ file }}</a></p>
+</div>
+{% endfor %}
+{% endblock %}

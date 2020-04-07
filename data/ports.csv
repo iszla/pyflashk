@@ -1,0 +1,19 @@
+20,FTP
+21,FTP
+22,SSH / SCP / SFTP
+23,Telnet
+25,SMTP
+53,DNS
+69,TFTP, Trivial File Transfer Protocol
+80,HTTP
+110,POP3
+137,NetBIOS
+138,NetBIOS
+139,NetBIOS
+143,IMAP4
+161,SNMP - Simple Network Management Protocol
+389,LDAP
+443,HTTPS
+636,LDAPS
+1433,Microsoft SQL Server
+3389,RDP

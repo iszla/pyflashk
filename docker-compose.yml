@@ -1,0 +1,19 @@
+version: "3.3"
+
+services:
+  pyflashk:
+    image: pyflashk:latest
+    restart: always
+    container_name: pyflashk
+    environment:
+      - DEBUG=False
+    networks:
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.flashk.rule=Host(`flash.${BASE_URL}`)"
+      - "traefik.http.routers.flashk.entrypoints=http,https"
+
+networks:
+  web:
+    external: true

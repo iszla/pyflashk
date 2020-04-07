@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}{{ name }}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-md-center" onclick="next()">
+    <div id="title" class="card" style="width: 20rem;">
+        <div class="card-header bg-primary">
+            <b>Flashcard</b>
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p id="text"></p>
+            </blockquote>
+        </div>
+    </div>
+
+    <div id="done" class="card" style="width: 20rem; display: none;">
+        <div class="card-header bg-secondary">
+            <b>Flashcard</b>
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p>Done!</p>
+            </blockquote>
+        </div>
+    </div>
+</div>
+<div class="row justify-content-md-center">
+    <div id="answer" class="card" style="width: 20rem;">
+        <div class="card-header bg-success">
+            <b>Answer</b>
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p id="text"></p>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var cards = {{ cards | safe }}
+    var revealing = false
+
+    function next() {
+        if (revealing) {
+            nextCard()
+        } else {
+            reveal()
+        }
+    }
+
+    function nextCard() {
+        var cardsLeft = Object.keys(cards).length
+
+        if (cardsLeft == 0) {
+            document.getElementById('title').style.display = 'None'
+            document.getElementById('done').style.display = ''
+            return
+        }
+
+        revealing = false
+
+        document.getElementById('answer').style.display = 'None'
+
+        var cardNumber = Math.floor(Math.random() * Math.floor(cardsLeft))
+        index = 0
+        card = {}
+
+        for (let key in cards) {
+            if (index === cardNumber) {
+                card = { key: key, val: cards[key] }
+                delete cards[key]
+                break
+            }
+
+            index++
+        }
+        document.querySelector('#title #text').innerText = card.key
+        document.querySelector('#answer #text').innerText = card.val
+    }
+
+    function reveal() {
+        revealing = true
+        document.getElementById('answer').style.display = ''
+    }
+
+    document.onload = nextCard()
+
+    $(window).keypress(function (e) {
+        if (e.which === 32) {
+            next()
+        }
+    });
+</script>
+{% endblock %}

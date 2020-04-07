@@ -1,0 +1,184 @@
+3DES,Triple Data Encryption Standard
+AAA,Authentication Authorization and Accounting
+AAR,After Action Report
+ACL,Access Control List
+AD,Active Directory
+AES,Advanced Encryption Standard
+AH,Authentication Header
+ALE,Annual Loss Expectancy
+AP,Access Point
+API,Application Programming Interface
+APT,Advanced Persistent Threat
+ARO,Annual Rate of Occurrence
+ARP,Address Resolution Protocol
+ASLR,Address Space Layout Randomization
+ASP,Application Service Provider
+AUP,Acceptable Use Policy
+AV,Anti-Virus
+BAC,Business Availability Center
+BCP,Business Continuity Plan
+BIA,Business Impact Analysis
+BIND,Berkeley Internet Name Domain
+BIOS,Basic Input Output System
+BPA,Business Partnership Agreement
+BPDU,Bridge Protocol Data Unit
+BYOD,Bring Your Own Device
+CA,Certificate Authority
+CAC,Common Access Card
+CAN,Controller Area Network
+CAPTCHA,Completely Automated Public Turing test to tell Computers and Humans Apart
+CAR,Corrective Action Report
+CBC,Cipher Block Chaining
+CCMP,Counter-mode Cipher-block-chaining Message-authentication-code Protocol
+CCTV,Closed Circuit Television
+CHAP,Challenge Handshake Authentication Protocol
+CIA,Confidentiality Integrity Availability
+CIDR,Classless Inter Domain Routing
+CIO,Chief Information Officer
+CIRT,Computer Incident Response Team
+CMS,Content Management System
+COOP,Continuity Of Operations Plan
+CRL,Certificate Revocation List
+CRM,Customer Relationship Management
+CSIRT,Cyber Security Incident Response Team
+CSU/DSU,Channel Service Unit / Data Service Unit
+DAC,Discretionary Access Control
+DC,Domain Controller
+DDoS,Distributed Denial of Service
+DES,Data Encryption Standard
+DHCP,Dynamic Host Configuration Protocol
+DLP,Data Loss Prevention
+DNAT,Dynamic Network Address Translation
+DNS,Domain Name System
+DoS,Denial of Service
+DRP,Disaster Recovery Plan
+EFS,Encrypting File System
+EMI,Electro-Magnetic Interference
+EMP,Electro-Magnetic Pulse
+FQDN,Fully Qualified Domain Name
+FTP,File Transfer Protocol
+GRC,Governance Risk Compliance
+HA,High Availability
+HBA,Host Bus Adapter
+HIDS,Host Intrusion Detection System
+HIPS,Host Intrusion Prevention System
+HOTP,HMAC-based One Time Password
+HSM,Hardware Security Module
+HSRP,Hot Standby Router Protocol
+HTML,HyperText Markup Language
+HTTP,Hyper Text Transfer Protocol
+HTTPS,Hyper Text Transfer Protocol Secure
+IaaS,Infrastructure as a Service
+ICMP,Internet Control Message Protocol
+ICS,Industrial Control System
+IDF,Intermediate Distribution Frame
+IDS,Intrusion Detection System
+IEEE,Institute of Electrical and Electronics Engineers
+IETF,Internet Engineering Task Force
+IKE,Internet Key Exchange
+IoT,Internet of Things
+IP,Internet Protocol
+IPS,Intrusion Prevention System
+IPSec,Internet Protocol Security
+IRP,Incident Response Plan
+ISP,Internet Service Provider
+LAN,Local Area Network
+LDAP,Lightweight Directory Access Protocol
+LUN,Logical Unit Number
+MaaS,Monitoring as a Service
+MAC,Mandatory Access Control
+MAC,Media Access Control
+MD5,Message Digest version 5
+MDF,Main Distribution Frame
+MITM,Man In The Middle
+MOU,Memorandum Of Understanding
+MTBF,Mean Time Between Failures
+MTTF,Mean Time To Failure
+MTTR,Mean Time To Recover
+MTU,Maximum Transmission Unit
+NAC,Network Access Control
+NAT,Network Address Translation
+NDA,Non-Disclosure Agreement
+NDP,Neighbor Discovery Protocol
+NFC,Near Field Communications
+NIC,Network Interface Card
+NIDS,Network Intrusion Detection System
+NIPS,Network Intrusion Prevention System
+OID,Object ID
+OSI,Open System Interconnection
+PaaS,Platform as a Service
+PAM,Pluggable Authentication Module
+PAP,Password Authentication Protocol
+PAT,Port Address Translation
+PBKDF2,Password-Based Key Derivation Function 2
+PBX,Private Branch eXchange
+PCAP,Packet Capture
+PEAP,Protected Extensible Authentication Protocol
+PFS,Perfect Forward Secrecy
+PGP,Pretty Good Privacy
+POP,Post Office Protocol
+POP3,Post Office Protocol version 3
+POTS,Plain Old Telephone System
+PPP,Point to Point Protocol
+PPPoE,Point to Point Protocol over Ethernet
+PPTP,Point To Point Tunneling Protocol
+PSTN,Public Switched Telephone Network
+RA,Registration Authority
+RADIUS,Remote Authentication Dial-In User Service
+RAID,Redundant Array of Independent Disks
+RAM,Random Access Memory
+RAS,Remote Access Services
+RBAC,Role Based Access Control
+RDP,Remote Desktop Protocol
+RF,Radio Frequency
+RSBAC,Rule Set Based Access Control
+RSTP,Rapid Spanning Tree Protocol
+RTO,Recovery Time Objective
+SaaS,Software as a Service
+SAML,Security Assertion Markup Language
+SAN,Storage Area Network
+SCADA,Supervisory Control and Data Acquisition System
+SCP,Secure Copy Protocol
+SFTP,Secure File Transfer Protocol
+SHA,Secure Hash Algorithm
+SLA,Service Level Agreement
+SLE,Single Loss Expectancy
+SMTP,Simple Mail Transfer Protocol
+SNMP,Simple Network Management Protocol
+SQL,Structured Query Language
+SSD,Solid State Drive
+SSH,Secure SHell
+SSID,Service Set Identifier
+SSL,Secure Sockets Layer
+SSO,Single Sign On
+STP,Spanning Tree Protocol
+STP,Shielded Twisted Pair
+TCP,Transmission Control Protocol
+TFTP,Trivial File Transfer Protocol
+TGT,Ticket Granting Ticket
+TKIP,Temporal Key Integrity Protocol
+TLS,Transport Layer Security
+TOTP,Time-based One Time Password
+TPM,Trusted Platform Module
+TSIG,Transaction Signature
+TTL,Time To Live
+UAT,User Acceptance Testing
+UDP,User Datagram Protocol
+UEFI,Unified Extensible Firmware Interface
+UPS,Uninterruptable Power Supply
+URI,Uniform Resource Identifier
+URL,Uniform Resource Locator
+USB,Universal Serial Bus
+UTM,Unified Threat Management
+UTP,Unshielded Twisted Pair
+VDI,Virtual Desktop Infrastructure
+VLAN,Virtual Local Area Network
+VLSM,Variable Length Subnet Mask
+VM,Virtual Machine
+VoIP,Voice Over IP
+VPN,Virtual Private Network
+WAF,Web Application Firewall
+WAN,Wide Area Network
+WAP,Wireless Access Point
+WLAN,Wireless Local Area Network
+XML,eXtensible Markup Language
