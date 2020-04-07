@@ -1,9 +1,9 @@
-from flask import Flask, render_template
-import glob
-import re
 import csv
+import glob
 import json
-import os
+import re
+
+from flask import Flask, abort, render_template
 
 app = Flask(__name__)
 
@@ -16,11 +16,15 @@ def home():
 @app.route('/data/<file>')
 def flash_cards(file):
     data = get_data_source_by_name(file)
-    print(data)
-    if data == None:
-        return 404
 
-    return render_template('flash_cards.html', name=file, cards=json.dumps(data))
+    if data is None:
+        return abort(404)
+
+    return render_template(
+        'flash_cards.html',
+        name=file,
+        cards=json.dumps(data)
+    )
 
 
 def get_all_data_sources():
@@ -45,12 +49,9 @@ def get_data_source_by_name(name):
                 data[row[0]] = row[1]
 
             return data
-
     except IOError:
-        print('IOError')
         return None
 
 
 if __name__ == '__main__':
-    debug = os.environ.get("DEBUG")
-    app.run(debug=debug != "False", host='0.0.0.0')
+    app.run(host='0.0.0.0')

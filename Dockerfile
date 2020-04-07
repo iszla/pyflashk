@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-ARG DEBUG=True
+ARG FLASK_ENV=development
 
 EXPOSE 5000
 

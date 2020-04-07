@@ -6,7 +6,7 @@ services:
     restart: always
     container_name: pyflashk
     environment:
-      - DEBUG=False
+      - FLASK_ENV=production
     networks:
       - web
     labels:
